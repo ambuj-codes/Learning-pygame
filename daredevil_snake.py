@@ -14,7 +14,7 @@ blue=(0,0,255)
 display_width = 800
 display_height = 600
 gamedisplay=pygame.display.set_mode((display_width,display_height))
-pygame.display.set_caption('Snake Game - Ambuj Dhakad')
+pygame.display.set_caption('Dare devil Snake Game - Ambuj Dhakad')
 
 clock = pygame.time.Clock()
 
@@ -90,7 +90,7 @@ def game_intro():
                     quit()
 
         gamedisplay.fill(black)
-        message_to_screen("Welcome" , blue ,-150,"large")
+        message_to_screen("Welcome to Dare Devil" , blue ,-150,"large")
         message_to_screen("Objective is to eat RED block", grey, -50, "small")
         message_to_screen("The more block you eat the longer snake becomes", grey,30,"small")
         message_to_screen("If you run into youself or in the boundries , YOU WILL DIE!! ", grey,90, "small")
